@@ -1,10 +1,10 @@
+/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import Header from '../components/Header';
 import ParticlesBackground from '../components/ParticlesBackground';
 import ProjectsCards from '../components/ProjectsCards';
 import Footer from '../components/Footer';
-import { ProjectsWrapper } from './ProjectsStyle';
-import projectsData from '../projectsData';
+import { ProjectsWrapper, Title } from './ProjectsStyle';
 
 function Projects() {
   return (
@@ -12,13 +12,12 @@ function Projects() {
       <ParticlesBackground />
       <Header />
       <ProjectsWrapper>
-        <h1>Projects</h1>
-        <ProjectsCards projects={ projectsData }/>
+        <Title>Projects</Title>
+        <ProjectsCards />
       </ProjectsWrapper>
       <Footer />
     </>
-  )
-};
+  );
+}
 
 export default Projects;
-

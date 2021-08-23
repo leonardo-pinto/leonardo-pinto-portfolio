@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import StyledHeader from './HeaderStyle';
 
 function Header() {
@@ -9,13 +8,15 @@ function Header() {
         Leonardo Pinto
       </p>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
       </nav>
     </StyledHeader>
-  )
-};
+  );
+}
 
 export default Header;
