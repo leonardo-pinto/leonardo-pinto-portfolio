@@ -1,23 +1,23 @@
+/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import ParticlesBackground from '../components/ParticlesBackground';
 import Header from '../components/Header';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
-import { ContactWrapper } from './ContactStyle';
+import { ContactWrapper, Title } from './ContactStyle';
 
 function Contact() {
-
   return (
     <>
       <ParticlesBackground />
       <Header />
       <ContactWrapper>
-        <h1>Contact</h1>
+        <Title>Contact</Title>
         <ContactForm />
       </ContactWrapper>
       <Footer />
     </>
-  )
-};
+  );
+}
 
 export default Contact;

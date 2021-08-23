@@ -3,25 +3,25 @@ import Particles from 'react-particles-js';
 
 function ParticlesBackground() {
   return (
-    <Particles 
+    <Particles
       style={{
         height: '100%',
         position: 'absolute',
         width: '100%',
-        zIndex: '-1'
+        zIndex: '-1',
       }}
       params={{
-        polygon:{
+        polygon: {
           enable: true,
-          type: "inside",
+          type: 'inside',
           move: {
             radius: 40,
           },
           shape: {
-            type:"square",
-          }
+            type: 'square',
+          },
         },
-      }} 
+      }}
     />
   );
 }

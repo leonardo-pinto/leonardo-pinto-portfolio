@@ -1,7 +1,8 @@
+/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { Section } from './HomeStyle';
+import Section from './HomeStyle';
 import ParticlesBackground from '../components/ParticlesBackground';
 
 function Home() {
@@ -11,15 +12,15 @@ function Home() {
       <Header />
       <Section column>
         <h1>
-          Hello, I'm Leonardo Pinto
+          Hello, I&apos;m Leonardo Pinto
         </h1>
         <h3>
-          I'm a junior front end web developer
+          I&apos;m a junior front end web developer
         </h3>
       </Section>
       <Footer />
     </>
   );
-};
+}
 
 export default Home;
