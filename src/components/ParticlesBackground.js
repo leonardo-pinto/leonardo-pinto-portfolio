@@ -17,19 +17,8 @@ function ParticlesBackground() {
           move: {
             radius: 40,
           },
-          // number: {
-          //   value:300,
-          //   density: {
-          //     enable:true,
-          //     value_area:900,
-          //   },
-          // },
           shape: {
             type:"square",
-            stroke: {
-              width:6,
-              color:"#ff59b0"
-            }
           }
         },
       }} 
