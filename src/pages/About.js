@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
-import Header from '../components/Header';
+import Navbar from '../components/Nav/Navbar';
 import ParticlesBackground from '../components/ParticlesBackground';
 import Footer from '../components/Footer';
 import { AboutWrapper, AboutText, Title } from './AboutStyle';
@@ -10,7 +10,7 @@ function About() {
   return (
     <>
       <ParticlesBackground />
-      <Header />
+      <Navbar />
       <AboutWrapper>
         <img src={author} alt="author" />
         <AboutText column>

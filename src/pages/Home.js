@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
-import Header from '../components/Header';
+import Navbar from '../components/Nav/Navbar';
 import Footer from '../components/Footer';
 import Section from './HomeStyle';
 import ParticlesBackground from '../components/ParticlesBackground';
@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
       <ParticlesBackground />
-      <Header />
+      <Navbar />
       <Section column>
         <h1>
           Hello, I&apos;m Leonardo Pinto

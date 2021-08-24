@@ -6,7 +6,7 @@ export const ProjectsCardsWrapper = styled.section`
   display: flex;
   flex-direction: ${(props) => (props.column ? 'column' : 'row')};
   justify-content: space-evenly;
-  width: 50%;
+  width: 70%;
 `;
 
 export const ProjectCard = styled.div`
@@ -23,8 +23,10 @@ export const ProjectCardInfo = styled.div`
   color: #FFFFFF;
   display: flex;
   flex-direction: ${(props) => (props.column ? 'column' : 'row')};
-  margin-top: 2em;
-  padding: 2em;
+
+  h3, p {
+    padding: 0.8em;
+  }
 `;
 
 export const ButtonsWrapper = styled.div`
