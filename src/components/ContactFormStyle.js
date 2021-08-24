@@ -7,6 +7,12 @@ export const Form = styled.form`
   justify-content: center;
   padding: 1em;
   width: 50%;
+
+  @media only screen and (max-width: 768px) {
+    align-items: center;
+    padding: 0;
+    width: 100%;
+  }
 `;
 
 export const FormInput = styled.input`

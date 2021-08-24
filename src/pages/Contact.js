@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import ParticlesBackground from '../components/ParticlesBackground';
-import Header from '../components/Header';
+import Navbar from '../components/Nav/Navbar';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 import { ContactWrapper, Title } from './ContactStyle';
@@ -10,7 +10,7 @@ function Contact() {
   return (
     <>
       <ParticlesBackground />
-      <Header />
+      <Navbar />
       <ContactWrapper>
         <Title>Contact</Title>
         <ContactForm />

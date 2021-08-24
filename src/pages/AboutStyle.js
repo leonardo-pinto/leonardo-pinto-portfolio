@@ -11,11 +11,22 @@ export const AboutWrapper = styled.section`
 
   img {
     border-radius: 100%;
+
+    @media only screen and (max-width: 768px) {
+      margin: 2em 0;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    margin-top: 0;
+    padding: 0;
   }
 `;
 
 export const Title = styled.h1`
   font-size: 2.0em;
+  margin-bottom: 1.25em;
 `;
 
 export const AboutText = styled.article`
@@ -24,9 +35,17 @@ export const AboutText = styled.article`
   display: flex;
   flex-direction: ${(props) => (props.column ? 'column' : 'row')};
   justify-content: center;
-  line-height: 1.2em;
+  line-height: 1.5em;
   text-align: justify;
   width: 40%;
+
+  @media only screen and (max-width: 768px) {
+    width: 90%;
+  }
+
+  p {
+    padding-bottom: 1.2em;
+  }
 
   a {
     text-decoration: none;
