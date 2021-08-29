@@ -33,7 +33,6 @@ const Ul = styled.ul`
     right: 0;
     height: auto;
     width: 100%;
-    padding-top: 1.5rem;
     transition: transform 0.3s ease-in-out;
     li {
       color: #fff;

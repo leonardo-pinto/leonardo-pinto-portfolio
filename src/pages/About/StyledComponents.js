@@ -1,32 +1,40 @@
 import styled from 'styled-components';
 
-export const AboutWrapper = styled.section`
+export const AboutContainer = styled.section`
   align-items: center;
   color: #FFFFFF;
   display: flex;
   flex-direction: ${(props) => (props.column ? 'column' : 'row')};
-  justify-content: space-evenly;
-  margin-top: 2em;
-  padding: 2em;
+  justify-content: center;
+  gap: 8em;
+  margin-bottom: 4em;
+
+  @media only screen and (max-width: 768px) {
+    gap: 0; 
+  }
 
   img {
     border-radius: 100%;
 
     @media only screen and (max-width: 768px) {
-      margin: 2em 0;
+      margin-top: 2em;
+      width: 30%;
     }
   }
 
   @media only screen and (max-width: 768px) {
     flex-direction: column;
-    margin-top: 0;
-    padding: 0;
   }
 `;
 
 export const Title = styled.h1`
-  font-size: 2.0em;
-  margin-bottom: 1.25em;
+  color: #FFFFFF;
+  font-size: 35px;
+  font-weight: 700;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 25px;
+  }
 `;
 
 export const AboutText = styled.article`
@@ -40,11 +48,8 @@ export const AboutText = styled.article`
   width: 40%;
 
   @media only screen and (max-width: 768px) {
-    width: 90%;
-  }
-
-  p {
-    padding-bottom: 1.2em;
+    margin-bottom: 5em;
+    width: 80%;
   }
 
   a {

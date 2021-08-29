@@ -5,7 +5,7 @@ import {
   FormInput,
   FormTextArea,
   SendButton,
-} from './ContactFormStyle';
+} from './StyledComponents';
 
 function ContactForm() {
   const [toSend, setToSend] = useState({

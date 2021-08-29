@@ -1,25 +1,27 @@
 import React from 'react';
-import projectsData from '../projectsData';
+import projectsData from '../../projectsData';
 import {
-  ProjectsCardsWrapper,
+  ProjectsCardsContainer,
   ProjectCard,
-  ButtonsWrapper,
+  ButtonsContainer,
   ProjectLink,
   ButtonLogo,
   ProjectImage,
   ProjectCardInfo,
-} from './ProjectsCardsStyle';
-import github from '../images/github.png';
+  Title,
+  Description,
+} from './StyledComponents';
+import github from '../../images/github.png';
 
 function ProjectsCards() {
   return (
-    <ProjectsCardsWrapper column>
+    <ProjectsCardsContainer column>
       { projectsData.map(({ title, description, image }) => (
         <ProjectCard key={title}>
           <ProjectCardInfo column>
-            <h3>{ title }</h3>
-            <p>{ description }</p>
-            <ButtonsWrapper>
+            <Title>{ title }</Title>
+            <Description>{ description }</Description>
+            <ButtonsContainer>
               <ProjectLink
                 target="_blank"
                 rel="noopener noreferrer"
@@ -35,12 +37,12 @@ function ProjectsCards() {
               >
                 View Site
               </ProjectLink>
-            </ButtonsWrapper>
+            </ButtonsContainer>
           </ProjectCardInfo>
           <ProjectImage src={image} alt={title} />
         </ProjectCard>
       ))}
-    </ProjectsCardsWrapper>
+    </ProjectsCardsContainer>
   );
 }
 

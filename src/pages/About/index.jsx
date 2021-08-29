@@ -1,17 +1,17 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
-import Navbar from '../components/Nav/Navbar';
-import ParticlesBackground from '../components/ParticlesBackground';
-import Footer from '../components/Footer';
-import { AboutWrapper, AboutText, Title } from './AboutStyle';
-import author from '../images/leonardo.jpeg';
+import Navbar from '../../components/Nav';
+import ParticlesBackground from '../../components/ParticlesBackground';
+import Footer from '../../components/Footer';
+import { AboutContainer, AboutText, Title } from './StyledComponents';
+import author from '../../images/leonardo.jpeg';
 
 function About() {
   return (
     <>
       <ParticlesBackground />
       <Navbar />
-      <AboutWrapper>
+      <AboutContainer>
         <img src={author} alt="author" />
         <AboutText column>
           <Title>ABOUT ME</Title>
@@ -31,7 +31,7 @@ function About() {
             opportunities to improve my skills.
           </p>
         </AboutText>
-      </AboutWrapper>
+      </AboutContainer>
       <Footer />
     </>
   );

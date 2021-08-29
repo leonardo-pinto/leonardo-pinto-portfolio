@@ -1,7 +1,7 @@
 import React from 'react';
-import StyledFooter from './FooterStyle';
-import github from '../images/github.png';
-import linkedin from '../images/linkedin.png';
+import StyledFooter from './StyledComponents';
+import github from '../../images/github.png';
+import linkedin from '../../images/linkedin.png';
 
 function Footer() {
   return (
