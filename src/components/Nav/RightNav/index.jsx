@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Ul from './RightNavStyle';
+import Ul from './StyledComponents';
 
 const RightNav = ({ open }) => (
   <Ul open={open}>
@@ -10,6 +10,7 @@ const RightNav = ({ open }) => (
     <li><a href="/contact">Contact</a></li>
   </Ul>
 );
+
 RightNav.propTypes = {
   open: PropTypes.bool.isRequired,
 };
