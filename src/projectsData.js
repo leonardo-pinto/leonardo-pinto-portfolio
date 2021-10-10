@@ -1,22 +1,13 @@
-import image1 from './images/image1.png';
-import image2 from './images/image2.png';
-import image3 from './images/image3.png';
+import todoList from './images/todo-example.png';
 
 const projects = [
   {
-    title: 'Title 1',
-    description: 'Description 1',
-    image: image1,
-  },
-  {
-    title: 'Title 2',
-    description: 'Description 2',
-    image: image2,
-  },
-  {
-    title: 'Title 3',
-    description: 'Description 3',
-    image: image3,
+    title: 'To Do List',
+    description: 'Simple todo list application. The user can add, edit, delete and mark tasks as completed.',
+    image: todoList,
+    code: 'https://github.com/leonardo-pinto/todo-react-redux',
+    app: 'https://todo-react-redux-murex.vercel.app/',
+    tags: ['React', ' Redux', 'Tailwind CSS', 'Jest', 'React Testing Library'],
   },
 ];
 

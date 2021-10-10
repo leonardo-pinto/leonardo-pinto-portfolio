@@ -10,22 +10,31 @@ import {
   ProjectCardInfo,
   Title,
   Description,
+  TagsContainer,
+  Tags,
 } from './StyledComponents';
 import github from '../../images/github.png';
 
 function ProjectsCards() {
   return (
     <ProjectsCardsContainer column>
-      { projectsData.map(({ title, description, image }) => (
+      { projectsData.map(({
+        title, description, image, code, app, tags,
+      }) => (
         <ProjectCard key={title}>
           <ProjectCardInfo column>
             <Title>{ title }</Title>
             <Description>{ description }</Description>
+            <TagsContainer>
+              {
+                tags.map((tag) => <Tags key={tag}>{tag}</Tags>)
+              }
+            </TagsContainer>
             <ButtonsContainer>
               <ProjectLink
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/leonardo-pinto"
+                href={code}
               >
                 <ButtonLogo src={github} alt="github logo" />
                 Code
@@ -33,7 +42,7 @@ function ProjectsCards() {
               <ProjectLink
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/leonardo-pinto"
+                href={app}
               >
                 View Site
               </ProjectLink>
