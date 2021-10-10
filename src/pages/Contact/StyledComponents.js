@@ -24,3 +24,16 @@ export const Title = styled.h1`
     font-size: 25px;
   }
 `;
+
+export const LogoContainer = styled.section`
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  justify-content: center;
+  margin-top: 2em;
+`;
+
+export const Logo = styled.img`
+  width: 50px;
+`;
