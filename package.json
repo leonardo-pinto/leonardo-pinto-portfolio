@@ -18,7 +18,7 @@
     "styled-components": "^5.3.0",
     "tsparticles": "^1.33.3"
   },
-  "homepage": "https://leonardo-pinto.github.io",
+  "homepage": "https://leonardo-pinto.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
