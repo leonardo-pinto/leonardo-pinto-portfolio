@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,KACE,qBAAsB,CACtB,8CAAkD,CAClD,iBAAkB,CAClB,eAAgB,CAChB,QAAS,CACT,SACF","file":"main.9f4899fe.chunk.css","sourcesContent":["body {\n  background-color: gray;\n  font-family: Montserrat, Roboto, Arial, sans-serif;\n  font-style: normal;\n  font-weight: 400;\n  margin: 0;\n  padding: 0;\n}\n"]}
