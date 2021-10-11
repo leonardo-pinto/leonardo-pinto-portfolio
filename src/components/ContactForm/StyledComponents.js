@@ -5,6 +5,7 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 1em;
   padding: 1em;
   width: 50%;
 
@@ -33,6 +34,10 @@ export const FormTextArea = styled.textarea`
   resize: none;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   width: 90%;
+
+  @media only screen and (max-width: 768px) {
+    height: 5em;
+  }
 `;
 
 export const SendButton = styled.button`

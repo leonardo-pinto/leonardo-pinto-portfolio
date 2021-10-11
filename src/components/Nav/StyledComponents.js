@@ -5,8 +5,11 @@ export const Nav = styled.nav`
   background-color: #808080;
   display: flex;
   height: 3em;
+  margin-bottom: 10em;
   padding: 0 20px;
+  position: fixed;
   justify-content: space-between;
+  width: 95%;
 
   @media (max-width: 768px) {
     justify-content: flex-start;
