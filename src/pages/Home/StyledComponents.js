@@ -17,7 +17,7 @@ export const Title = styled.h1`
   font-weight: 700;
 
   @media only screen and (max-width: 768px) {
-    font-size: 25px;
+    font-size: 22px;
   }
 `;
 
@@ -26,6 +26,6 @@ export const Subtitle = styled.h3`
   font-size: 20px;
 
   @media only screen and (max-width: 768px) {
-    font-size: 15px;
+    font-size: 14px;
   }
 `;

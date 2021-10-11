@@ -11,7 +11,7 @@ function Projects() {
     <>
       <ParticlesBackground />
       <Navbar />
-      <ProjectsContainer>
+      <ProjectsContainer column>
         <Title>Projects</Title>
         <ProjectsCards />
       </ProjectsContainer>

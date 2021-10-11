@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
 export const ProjectsCardsContainer = styled.section`
-  align-items: flex-start;
+  align-items: center;
   color: #FFFFFF;
   display: flex;
   flex-direction: ${(props) => (props.column ? 'column' : 'row')};
   justify-content: space-evenly;
-  width: 60%;
+  margin-bottom: 10em;
+  width: 80%;
 `;
 
 export const ProjectCard = styled.div`
@@ -15,6 +16,7 @@ export const ProjectCard = styled.div`
   display: flex;
   flex-direction: ${(props) => (props.column ? 'column' : 'row')};
   justify-content: space-evenly;
+  margin-bottom: 3em;
   width: 100%;
 
   @media only screen and (max-width: 768px) {
@@ -27,7 +29,7 @@ export const ProjectCardInfo = styled.div`
   color: #FFFFFF;
   display: flex;
   flex-direction: ${(props) => (props.column ? 'column' : 'row')};
-  width: 60%;
+  width: 50%;
 
   @media only screen and (max-width: 768px) {
     width: 100%;
@@ -56,19 +58,19 @@ export const Description = styled.p`
 `;
 
 export const TagsContainer = styled.ul`
-  align-items: left;
+  align-items: center;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
+  width: 100%;
 `;
 
 export const Tags = styled.li`
   font-size: 16px;
+  line-height: 1.5em;
+  margin-left: 2em;
+  text-align: center;
   padding: 2px;
-
-  @media only screen and (max-width: 768px) {
-    font-size: 14px;
-  }
 `;
 
 export const ButtonsContainer = styled.div`
