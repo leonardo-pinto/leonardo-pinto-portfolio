@@ -12,7 +12,7 @@ const projects = [
   },
   {
     title: 'Pokémon TCG App',
-    description: 'Appication that displays Pokémon TCG cards. The user can filter by card name, type and also sort alphabetically. Moreover, it enables to favorite cards, detailed information and also to check Pokémon facts.',
+    description: 'Application that displays Pokémon TCG cards. The user can filter by card name, type and also sort alphabetically. Moreover, it enables to favorite cards, detailed information and also to check Pokémon facts.',
     image: pokemonTcg,
     code: 'https://github.com/leonardo-pinto/pokemon-tcg-app',
     app: 'https://pokemon-tcg-app.vercel.app/',
