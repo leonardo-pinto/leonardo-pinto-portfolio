@@ -63,6 +63,10 @@ export const TagsContainer = styled.ul`
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
+
+   @media only screen and (max-width: 768px) {
+    justify-content: start;
+  }
 `;
 
 export const Tags = styled.li`

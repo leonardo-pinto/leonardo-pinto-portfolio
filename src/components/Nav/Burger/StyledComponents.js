@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 const StyledBurger = styled.div`
-  width: 2rem;
+  display: none;
   height: 2rem;
   position: fixed;
-  top: 15px;
   right: 20px;
+  top: 10px;
+  width: 2rem;
   z-index: 20;
-  display: none;
   
   @media (max-width: 768px) {
     display: flex;
@@ -16,12 +16,12 @@ const StyledBurger = styled.div`
   }
   
   div {
-    width: 2rem;
-    height: 0.25rem;
     background-color: ${({ open }) => (open ? '#ccc' : '#333')};
     border-radius: 10px;
+    height: 0.25rem;
     transform-origin: 1px;
     transition: all 0.3s linear;
+    width: 2rem;
     &:nth-child(1) {
       transform: ${({ open }) => (open ? 'rotate(45deg)' : 'rotate(0)')};
     }
