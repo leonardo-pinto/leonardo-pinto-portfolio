@@ -17,7 +17,7 @@ export const AboutContainer = styled.section`
     border-radius: 100%;
 
     @media only screen and (max-width: 768px) {
-      margin-top: 2em;
+      margin-top: 4em;
       width: 30%;
     }
   }

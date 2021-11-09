@@ -1,5 +1,6 @@
 import todoList from './images/todo-example.png';
 import pokemonTcg from './images/pokemon-tcg.png';
+import cookmaster from './images/cookmaster-example.png';
 
 const projects = [
   {
@@ -17,6 +18,13 @@ const projects = [
     code: 'https://github.com/leonardo-pinto/pokemon-tcg-app',
     app: 'https://pokemon-tcg-app.vercel.app/',
     tags: ['React', ' Context API', 'React Hooks', 'Tailwind CSS'],
+  },
+  {
+    title: 'Cookmaster',
+    description: 'Project developed during the Trybe web developer course. Consists of a CRUD REST API, where users and recipes may be created. JWT authentication is required to perform some actions. In addition, the user may upload an image.',
+    image: cookmaster,
+    code: 'https://github.com/leonardo-pinto/Cookmaster-API',
+    tags: ['NodeJS', 'Express', 'MongoDB', 'Mocha', 'Chai'],
   },
 ];
 
