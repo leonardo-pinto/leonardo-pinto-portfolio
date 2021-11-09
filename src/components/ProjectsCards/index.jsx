@@ -39,13 +39,16 @@ function ProjectsCards() {
                 <ButtonLogo src={github} alt="github logo" />
                 Code
               </ProjectLink>
-              <ProjectLink
-                target="_blank"
-                rel="noopener noreferrer"
-                href={app}
-              >
-                View Site
-              </ProjectLink>
+              { app
+                && (
+                <ProjectLink
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={app}
+                >
+                  View Site
+                </ProjectLink>
+                )}
             </ButtonsContainer>
           </ProjectCardInfo>
           <ProjectImage src={image} alt={title} />
