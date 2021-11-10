@@ -8,7 +8,7 @@ const projects = [
     description: 'Full-stack todo list application developed using the MERN stack. Features include creating a new user and login using JWT authentication. Tasks may be created, edited, deleted and mark as completed.',
     image: ebytr,
     code: 'https://github.com/leonardo-pinto/ebytr-mern-challenge',
-    tags: ['NodeJS', 'Express', 'Mocha', 'Chai', 'MongoDB', 'React', 'Redux', 'TailwindCSS', 'Jest', 'React Testing Library'],
+    tags: ['NodeJS', 'Express', 'Mocha', 'Chai', 'MongoDB', 'React', 'Redux', 'Tailwind CSS', 'Jest', 'React Testing Library'],
   },
   {
     title: 'Pokémon TCG App',
