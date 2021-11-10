@@ -10,7 +10,7 @@ function Home() {
           Hello, I&apos;m Leonardo Pinto
         </Title>
         <Subtitle>
-          I&apos;m a junior full-stack web developer
+          I&apos;m a junior back-end web developer
         </Subtitle>
       </SectionContainer>
       <Footer />
