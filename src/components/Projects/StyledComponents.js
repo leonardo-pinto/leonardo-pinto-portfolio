@@ -6,7 +6,6 @@ export const ProjectsContainer = styled.section`
   display: flex;
   flex-direction: ${(props) => (props.column ? 'column' : 'row')};
   justify-content: center;
-  margin-bottom: 5em;
 
   @media only screen and (max-width: 768px) {
     align-items: center;

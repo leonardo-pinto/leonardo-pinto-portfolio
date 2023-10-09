@@ -4,7 +4,7 @@ export const SectionContainer = styled.section`
   align-items: center;
   display: flex;
   flex-direction: ${(props) => (props.column ? 'column' : 'row')};
-  height: 70vh;
+  height: 100vh;
   justify-content: center;
 
   @media only screen and (max-width: 768px) {

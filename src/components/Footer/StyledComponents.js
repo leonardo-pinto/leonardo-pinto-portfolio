@@ -8,11 +8,9 @@ const StyledFooter = styled.footer`
   color: white;
   display: flex;
   height: 50px;
-  left: 0px;
   justify-content: space-evenly;
-  margin-bottom: 0px;
+  margin-top: 25px;
   right: 0px;
-  position: fixed;
 
   p {
     color: white;

@@ -6,13 +6,13 @@ export const ContactContainer = styled.section`
   display: flex;
   flex-direction: ${(props) => (props.column ? 'column' : 'row')};
   justify-content: center;
+  height: 80vh;
 `;
 
 export const Title = styled.h1`
   color: #FFFFFF;
   font-size: 35px;
   font-weight: 700;
-  margin-top: 2em;
 
   @media only screen and (max-width: 768px) {
     font-size: 25px;

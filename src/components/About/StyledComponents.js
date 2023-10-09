@@ -7,7 +7,7 @@ export const AboutContainer = styled.section`
   flex-direction: ${(props) => (props.column ? 'column' : 'row')};
   justify-content: center;
   gap: 8em;
-  margin-bottom: 4em;
+  height: 100vh;
 
   @media only screen and (max-width: 768px) {
     gap: 0; 
