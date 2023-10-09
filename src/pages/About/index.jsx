@@ -1,6 +1,5 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
-import Footer from '../../components/Footer';
 import { AboutContainer, AboutText, Title } from './StyledComponents';
 import author from '../../images/leonardo.jpeg';
 
@@ -28,7 +27,6 @@ function About() {
           </p>
         </AboutText>
       </AboutContainer>
-      <Footer />
     </>
   );
 }

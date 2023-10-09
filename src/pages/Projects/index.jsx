@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import ProjectsCards from '../../components/ProjectsCards';
-import Footer from '../../components/Footer';
 import { ProjectsContainer, Title } from './StyledComponents';
 
 function Projects() {
@@ -11,7 +10,6 @@ function Projects() {
         <Title>Projects</Title>
         <ProjectsCards />
       </ProjectsContainer>
-      <Footer />
     </>
   );
 }

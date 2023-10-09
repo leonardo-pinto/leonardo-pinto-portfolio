@@ -1,19 +1,20 @@
 import React from 'react';
-import Footer from '../../components/Footer';
 import { SectionContainer, Title, Subtitle } from './StyledComponents';
 
 function Home() {
   return (
     <>
       <SectionContainer column>
-        <Title>
-          Hello, I&apos;m Leonardo Pinto
-        </Title>
+        <Title>Hello, I&apos;m Leonardo Pinto</Title>
+        <Subtitle>Welcome to my portfolio!</Subtitle>
         <Subtitle>
-          I&apos;m a junior back-end web developer
+          I&apos;m a passionate software engineer who believes that technology
+          can positively impact the world
+        </Subtitle>
+        <Subtitle>
+          Here you can find information about me and my projects
         </Subtitle>
       </SectionContainer>
-      <Footer />
     </>
   );
 }

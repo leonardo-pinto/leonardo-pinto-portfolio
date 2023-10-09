@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import ContactForm from '../../components/ContactForm';
-import Footer from '../../components/Footer';
 import {
   ContactContainer,
   Title,
@@ -34,7 +33,6 @@ function Contact() {
         </LogoContainer>
         <ContactForm />
       </ContactContainer>
-      <Footer />
     </>
   );
 }
