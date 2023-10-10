@@ -1,8 +1,8 @@
-import pokemonTcg from './images/pokemon-tcg.png';
-import investmentManager from './images/investment-manager.jpg';
-import awsServerless from './images/aws-serverless.jpg';
-import ecommerce from './images/ecommerce.jpeg';
-import librarySystem from './images/library-system.jpg';
+import pokemonTcg from './assets/images/pokemon-tcg.png';
+import investmentManager from './assets/images/investment-manager.jpg';
+import awsServerless from './assets/images/aws-serverless.jpg';
+import ecommerce from './assets/images/ecommerce.jpeg';
+import librarySystem from './assets/images/library-system.jpg';
 
 const projects = [
   {
