@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 
 export const AboutWrapper = styled.section`
+  margin-bottom: 5em;
+
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 0;
+  }
 `;
 
 export const AboutContainer = styled.section`
