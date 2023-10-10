@@ -3,7 +3,7 @@ import { SectionContainer, Title, Subtitle } from './StyledComponents';
 
 function Home() {
   return (
-    <SectionContainer column>
+    <SectionContainer id="home" column>
       <Title>Hello, I&apos;m Leonardo Pinto</Title>
       <Subtitle>Welcome to my portfolio!</Subtitle>
       <Subtitle>

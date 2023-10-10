@@ -1,15 +1,41 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Ul from './StyledComponents';
 
-const RightNav = ({ open }) => (
-  <Ul open={open}>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about">About</a></li>
-    <li><a href="/projects">Projects</a></li>
-    <li><a href="/contact">Contact</a></li>
-  </Ul>
-);
+const RightNav = ({ open }) => {
+  useEffect(() => {
+    const links = document.querySelectorAll('.menu li a');
+
+    links.forEach((link) => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+
+        const targetId = link.getAttribute('href').substring(1);
+        console.log(targetId);
+        const targetSection = document.getElementById(targetId);
+        console.log(targetSection);
+        if (targetSection) {
+          targetSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+
+    return () => {
+      links.forEach((link) => {
+        link.removeEventListener('click', () => {});
+      });
+    };
+  }, []);
+
+  return (
+    <Ul className="menu" open={open}>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </Ul>
+  );
+};
 
 RightNav.propTypes = {
   open: PropTypes.bool.isRequired,

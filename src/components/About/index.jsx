@@ -7,7 +7,7 @@ import author from '../../images/leonardo.jpeg';
 
 function About() {
   return (
-    <AboutWrapper>
+    <AboutWrapper id="about">
       <Title>About</Title>
       <AboutContainer>
         <img src={author} alt="author" />

@@ -12,7 +12,7 @@ import linkedin from '../../images/linkedin.png';
 
 function Contact() {
   return (
-    <ContactContainer column>
+    <ContactContainer column id="contact">
       <Title>Contact</Title>
       <LogoContainer>
         <a

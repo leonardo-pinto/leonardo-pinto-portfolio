@@ -5,7 +5,7 @@ import { ProjectsContainer, Title } from './StyledComponents';
 
 function Projects() {
   return (
-    <ProjectsContainer column>
+    <ProjectsContainer id="projects" column>
       <Title>Projects</Title>
       <ProjectsCards />
     </ProjectsContainer>
