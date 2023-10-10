@@ -11,9 +11,7 @@ const RightNav = ({ open }) => {
         e.preventDefault();
 
         const targetId = link.getAttribute('href').substring(1);
-        console.log(targetId);
         const targetSection = document.getElementById(targetId);
-        console.log(targetSection);
         if (targetSection) {
           targetSection.scrollIntoView({ behavior: 'smooth' });
         }
