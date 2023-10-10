@@ -7,11 +7,8 @@ function Home() {
       <Title>Hello, I&apos;m Leonardo Pinto</Title>
       <Subtitle>Welcome to my portfolio!</Subtitle>
       <Subtitle>
-        I&apos;m a passionate software engineer who believes that technology
+        I&apos;m a passionate Software Engineer who believes that technology
         can positively impact the world
-      </Subtitle>
-      <Subtitle>
-        Here you can find information about me and my projects
       </Subtitle>
     </SectionContainer>
   );
