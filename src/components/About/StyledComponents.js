@@ -49,10 +49,11 @@ export const AboutText = styled.article`
   display: flex;
   flex-direction: ${(props) => (props.column ? 'column' : 'row')};
   justify-content: center;
-  line-height: 1.5em;
+  line-height: 2em;
   text-align: justify;
 
   @media only screen and (max-width: 768px) {
+    line-height: 1.5em;
     margin-bottom: 5em;
     width: 80%;
   }
