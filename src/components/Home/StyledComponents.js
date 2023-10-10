@@ -24,6 +24,7 @@ export const Title = styled.h1`
 export const Subtitle = styled.h3`
   color: #FFFFFF;
   font-size: 20px;
+  text-align: center;
 
   @media only screen and (max-width: 768px) {
     font-size: 14px;
@@ -71,7 +72,7 @@ export const ProjectLink = styled.a`
   }
 
   @media only screen and (max-width: 768px) {
-    font-size: 10px;
-    width: 15vw;
+    font-size: 12px;
+    width: 25vw;
   }
 `;

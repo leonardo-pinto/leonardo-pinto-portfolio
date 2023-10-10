@@ -6,7 +6,7 @@ export const ProjectsCardsContainer = styled.section`
   display: flex;
   flex-direction: ${(props) => (props.column ? 'column' : 'row')};
   justify-content: space-evenly;
-  margin-bottom: 10em;
+  margin-bottom: 2em;
 `;
 
 export const ProjectCard = styled.div`
@@ -20,6 +20,7 @@ export const ProjectCard = styled.div`
 
   @media only screen and (max-width: 768px) {
     flex-direction: column;
+    width: 90%;
   }
 `;
 
@@ -143,5 +144,6 @@ export const ProjectImage = styled.img`
 
   @media only screen and (max-width: 768px) {
     margin: 0;
+    width: 95%;
   }
 `;

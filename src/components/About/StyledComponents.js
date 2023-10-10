@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const AboutWrapper = styled.section`
-  height: 100vh;
 `;
 
 export const AboutContainer = styled.section`
@@ -15,7 +14,8 @@ export const AboutContainer = styled.section`
   width: 70%;
 
   @media only screen and (max-width: 768px) {
-    gap: 0; 
+    gap: 0;
+    width: 90%;
   }
 
   img {
