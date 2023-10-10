@@ -50,6 +50,7 @@ export const Description = styled.p`
   color: #FFFFFF;
   font-size: 18px;
   font-weight: 400;
+  line-height: 1.5rem;
   text-align: justify;
 
   @media only screen and (max-width: 768px) {
@@ -58,23 +59,28 @@ export const Description = styled.p`
 `;
 
 export const TagsContainer = styled.ul`
-  align-items: center;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  width: 100%;
+  list-style-type: none;
 
-   @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     justify-content: start;
   }
 `;
 
 export const Tags = styled.li`
-  font-size: 16px;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-size: 14px;
   line-height: 1.5em;
-  margin-left: 2em;
-  text-align: center;
-  padding: 2px;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  padding: 0.5em 0.7em;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 12px;
+  }
 `;
 
 export const ButtonsContainer = styled.div`
@@ -92,7 +98,7 @@ export const ProjectLink = styled.a`
   align-items: center;
   background-color: Transparent;
   background-repeat:no-repeat;
-  border: 1px solid #000000;
+  border: 1px solid #FFFFFF;
   border-radius: .2rem;
   color: #FFFFFF;
   cursor:pointer;
