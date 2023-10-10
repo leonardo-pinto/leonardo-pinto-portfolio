@@ -78,7 +78,9 @@ export const Tags = styled.li`
   padding: 0.5em 0.7em;
 
   &:hover {
-    background-color: black;
+    background-color: white;
+    border: 1px solid #808080;
+    color: #808080;
     opacity: 0.8;
   }
 
@@ -119,7 +121,7 @@ export const ProjectLink = styled.a`
 
   &:hover {
     background-color: black;
-    opacity: 0.8;
+    opacity: 1.0;
   }
 
   @media only screen and (max-width: 768px) {
