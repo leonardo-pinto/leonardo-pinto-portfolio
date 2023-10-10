@@ -40,6 +40,7 @@ export const ButtonsContainer = styled.div`
 
   @media only screen and (max-width: 768px) {
     margin-bottom: 1em;
+    flex-direction: column;
   }
 `;
 
