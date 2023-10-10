@@ -13,7 +13,7 @@ import {
   TagsContainer,
   Tags,
 } from './StyledComponents';
-import github from '../../images/github.png';
+import github from '../../assets/images/github.png';
 
 function ProjectsCards() {
   return (

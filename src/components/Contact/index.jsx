@@ -7,8 +7,8 @@ import {
   LogoContainer,
   Logo,
 } from './StyledComponents';
-import github from '../../images/github.png';
-import linkedin from '../../images/linkedin.png';
+import github from '../../assets/images/github.png';
+import linkedin from '../../assets/images/linkedin.png';
 
 function Contact() {
   return (

@@ -3,7 +3,7 @@ import React from 'react';
 import {
   AboutWrapper, AboutContainer, AboutText, Title,
 } from './StyledComponents';
-import author from '../../images/leonardo.jpeg';
+import author from '../../assets/images/leonardo.jpeg';
 
 function About() {
   return (
