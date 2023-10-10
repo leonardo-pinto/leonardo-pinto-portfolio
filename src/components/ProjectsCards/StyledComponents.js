@@ -7,7 +7,6 @@ export const ProjectsCardsContainer = styled.section`
   flex-direction: ${(props) => (props.column ? 'column' : 'row')};
   justify-content: space-evenly;
   margin-bottom: 10em;
-  width: 80%;
 `;
 
 export const ProjectCard = styled.div`
@@ -29,10 +28,10 @@ export const ProjectCardInfo = styled.div`
   color: #FFFFFF;
   display: flex;
   flex-direction: ${(props) => (props.column ? 'column' : 'row')};
-  width: 50%;
+  width: 40%;
 
   @media only screen and (max-width: 768px) {
-    width: 100%;
+    width: 90%;
   }
 `;
 
@@ -48,13 +47,13 @@ export const Title = styled.h3`
 
 export const Description = styled.p`
   color: #FFFFFF;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5rem;
   text-align: justify;
 
   @media only screen and (max-width: 768px) {
-    font-size: 16px;
+    font-size: 14px;
   }
 `;
 
@@ -72,14 +71,19 @@ export const Tags = styled.li`
   border: 1px solid #FFFFFF;
   border-radius: 20px;
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5em;
   margin-bottom: 0.5em;
   margin-left: 0.5em;
   padding: 0.5em 0.7em;
 
+  &:hover {
+    background-color: black;
+    opacity: 0.8;
+  }
+
   @media only screen and (max-width: 768px) {
-    font-size: 12px;
+    font-size: 10px;
   }
 `;
 
@@ -131,12 +135,9 @@ export const ButtonLogo = styled.img`
 `;
 
 export const ProjectImage = styled.img`
-  border: 1px solid black;
   border-radius: 10px;
-  height: 300px;
-  margin-left: 3em;
-  margin-top: 2em;
-  width: 250px;
+  height: 225px;
+  width: 450px;
 
   @media only screen and (max-width: 768px) {
     margin: 0;
