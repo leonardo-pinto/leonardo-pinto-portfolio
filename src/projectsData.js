@@ -1,15 +1,37 @@
-import ebytr from './images/ebytr.png';
 import pokemonTcg from './images/pokemon-tcg.png';
-import cookmaster from './images/cookmaster-example.png';
+import investmentManager from './images/investment-manager.jpg';
+import awsServerless from './images/aws-serverless.jpg';
+import ecommerce from './images/ecommerce.jpeg';
+import librarySystem from './images/library-system.jpg';
 
 const projects = [
   {
-    title: 'Ebytr To Do List',
-    description: 'Full-stack todo list application developed using the MERN stack. Features include creating a new user and login using JWT authentication. Tasks may be created, edited, deleted and mark as completed.',
-    image: ebytr,
-    code: 'https://github.com/leonardo-pinto/ebytr-mern-challenge',
-    app: 'https://ebytr-to-do.netlify.app/login',
-    tags: ['NodeJS', 'Express', 'Mocha', 'Chai', 'MongoDB', 'React', 'Redux', 'Tailwind CSS', 'Jest', 'React Testing Library'],
+    title: 'Investment Manager',
+    description: 'Full-stack application to manage stock investments in USA and Brazil. Easy-to-use application to check your position quotes and metrics while enabling to view all of your past transactions',
+    image: investmentManager,
+    code: 'https://github.com/leonardo-pinto/investment-manager',
+    tags: ['TypeScript', 'Vue 3', 'VueX', 'C#', '.NET', 'ASP.NET', 'Entity Framework', 'Docker', 'xUnit'],
+  },
+  {
+    title: 'Reminder AWS Serverless',
+    description: 'Serverless full stack reminder application using AWS. Users can register and create a reminder by specifying its content and date. Users are notified by email according to the reminder date.',
+    image: awsServerless,
+    code: 'https://github.com/leonardo-pinto/reminder-aws-serverless',
+    tags: ['TypeScript', 'Vue 3', 'NodeJS', 'AWS', 'AWS CDK', 'Lambda', 'DynamoDB', 'API Gateway', 'S3', 'CloudFront', 'AWS SES', 'Cognito'],
+  },
+  {
+    title: 'E-Commerce Microservices',
+    description: 'E-Commerce API using microservices architecture that has the basic business logic for online purchasing. Implemented a resilient architecture pattern using API Gateway, message broker, and AWS.',
+    image: ecommerce,
+    code: 'https://github.com/leonardo-pinto/ecommerce-microservices',
+    tags: ['TypeScript', 'NestJS', 'Mongoose', 'RabbitMQ', 'AWS Cognito', 'AWS SES', 'PassportJS', 'Microservices', 'API Gateway'],
+  },
+  {
+    title: 'Library System API',
+    description: 'Back-end library management system which enables functionalities based on users roles',
+    image: librarySystem,
+    code: 'https://github.com/leonardo-pinto/api-express-sequelize',
+    tags: ['TypeScript', 'NodeJS', 'Express', 'Sequelize', 'Docker', 'Jest'],
   },
   {
     title: 'Pokémon TCG App',
@@ -18,13 +40,6 @@ const projects = [
     code: 'https://github.com/leonardo-pinto/pokemon-tcg-app',
     app: 'https://pokemon-tcg-app.vercel.app/',
     tags: ['React', ' Context API', 'React Hooks', 'Tailwind CSS'],
-  },
-  {
-    title: 'Cookmaster',
-    description: 'Project developed during the Trybe web developer course. Consists of a CRUD REST API, where users and recipes may be created. JWT authentication is required to perform some actions. In addition, the user may upload an image.',
-    image: cookmaster,
-    code: 'https://github.com/leonardo-pinto/Cookmaster-API',
-    tags: ['NodeJS', 'Express', 'MongoDB', 'Mocha', 'Chai'],
   },
 ];
 
