@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const AboutWrapper = styled.section`
+  height: 100vh;
+`;
+
 export const AboutContainer = styled.section`
   align-items: center;
   color: #FFFFFF;
@@ -7,7 +11,8 @@ export const AboutContainer = styled.section`
   flex-direction: ${(props) => (props.column ? 'column' : 'row')};
   justify-content: center;
   gap: 8em;
-  height: 100vh;
+  margin: 0 auto;
+  width: 70%;
 
   @media only screen and (max-width: 768px) {
     gap: 0; 
@@ -31,7 +36,7 @@ export const Title = styled.h1`
   color: #FFFFFF;
   font-size: 35px;
   font-weight: 700;
-  margin-top: 2.5em;
+  text-align: center;
 
   @media only screen and (max-width: 768px) {
     font-size: 25px;
@@ -46,19 +51,9 @@ export const AboutText = styled.article`
   justify-content: center;
   line-height: 1.5em;
   text-align: justify;
-  width: 40%;
 
   @media only screen and (max-width: 768px) {
     margin-bottom: 5em;
     width: 80%;
-  }
-
-  a {
-    text-decoration: none;
-    color: #FFFFFF;
-  }
-
-  a:hover {
-    color: black;
   }
 `;
