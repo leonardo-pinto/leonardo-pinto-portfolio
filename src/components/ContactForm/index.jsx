@@ -8,20 +8,37 @@ import {
 } from './StyledComponents';
 
 function ContactForm() {
+  const [toResultMessage, setToResultMessage] = useState('');
+  const [toShowMessage, setToShowMessage] = useState(false);
   const [toSend, setToSend] = useState({
     from_name: '',
     from_email: '',
     message: '',
   });
 
-  const onSubmit = (e) => {
+  const onSubmit = async (e) => {
+    setToResultMessage('');
+    setToShowMessage(false);
     e.preventDefault();
-    send(
+    const result = await send(
       process.env.REACT_APP_API_SERVICE_ID_KEY,
       process.env.REACT_APP_API_EMAIL_TEMPLATE_KEY,
       toSend,
       process.env.REACT_APP_API_USER_ID_KEY,
     );
+
+    setToSend({
+      from_name: '',
+      from_email: '',
+      message: '',
+    });
+
+    if (result.status === 200) {
+      setToResultMessage('Email sent successfully!');
+    } else {
+      setToResultMessage('An error occurred. Please try again.');
+    }
+    setToShowMessage(true);
   };
 
   const handleChange = ({ target: { name, value } }) => {
@@ -57,6 +74,7 @@ function ContactForm() {
       <SendButton type="submit">
         Send
       </SendButton>
+      { toShowMessage && <p>{ toResultMessage }</p> }
     </Form>
   );
 }
