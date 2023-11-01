@@ -1,5 +1,5 @@
 import pokemonTcg from './assets/images/pokemon-tcg.png';
-import investmentManager from './assets/images/investment-manager.jpg';
+import investmentManager from './assets/images/investment-manager.png';
 import awsServerless from './assets/images/aws-serverless.jpg';
 import ecommerce from './assets/images/ecommerce.jpeg';
 import librarySystem from './assets/images/library-system.jpg';
@@ -10,7 +10,7 @@ const projects = [
     description: 'Full-stack application to manage stock investments in USA and Brazil. Easy-to-use application to check your position quotes and metrics while enabling to view all of your past transactions',
     image: investmentManager,
     code: 'https://github.com/leonardo-pinto/investment-manager',
-    tags: ['TypeScript', 'Vue 3', 'VueX', 'C#', '.NET', 'ASP.NET', 'Entity Framework', 'Docker', 'xUnit'],
+    tags: ['TypeScript', 'Vue 3', 'Pinia', 'Vuetify', 'C#', '.NET', 'ASP.NET', 'Entity Framework', 'Docker', 'xUnit'],
   },
   {
     title: 'Reminder AWS Serverless',
